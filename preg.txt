@@ -1,0 +1,37 @@
+Ex 1
+-Develop an algorithm that identifies all the sequences in S that contain suffixes that perfectly match a prefix of a               -(HECHO)
+-How many such sequences do you find?                                                                                               -(HECHO)                 
+-What is the length distribution of the sequences that remain after you have removed these perfectly matching adapter fragments?    -(HECHO)
+-What is the asymptotic (and practical) running time of your algorithm?                                                             -(SE PUEDE HACER)
+
+Ex 2
+-Develop an algorithm that identifies all the sequences in S that contain suffixes that match a prefix of a and                     -(HECHO)
+ where this suffix can contain up to a given percentage of mismatches to the prefix of a
+-How many such sequences do you find if you apply your algorithm to S and a from Task 1,                                            -(HECHO)
+ given that the maximum percentage of mismatches is 10%?                                                        
+-What is the length distribution of the sequences that remain after you have removed these imperfectly                              -(SE PUEDE HACER)
+ matching adapter fragments?                                                                                        
+-What are the answers to the previous two questions if you set the maximum percentage of mismatches to 25%?                         -(HECHO)/(SE PUEDE HACER)
+-What is the answer to the previous three questions if you allow insertions and deletions?                                          -(CREO QUE SE COMO SE HACE (NOT SURE))
+-What is the asymptotic (and practical) running time of your algorithm?                                                             -(SE PUEDE HACER)
+
+Ex3
+-Estimate the rate of sequencing errors per sequence and per nucleotide.                                                            -(SE PUEDE HACER)
+-Explain and discuss your analyses: are sequencing errors uniformly distributed across the sequences (i.e. is the                   -(SE PUEDE HACER)
+frequency of sequencing errors the same at the start of the sequence as at the end of
+the sequence, or anywhere else)?
+
+Ex4
+-Develop an algorithm that given a sequence set S,                                                                                  -(HECHO)
+identifies the most likely adapter sequence a and use this algorithm to analyze the set
+found in the file tdt4287-unknown-adapter.txt.gz.
+-What is the most likely adapter sequence?                                                                                          -(HECHO)
+-What is the length distribution of the sequences that remain after                                                                 -(SE DEBERÍA DE PODER HACER (ES USAR EL ALGORITMO DEL 1 CON LA ADAPTER DEL 4))
+you have removed these adapter fragments?
+-What is the running time of your algorithm?                                                                                        -(SE PUEDE HACER)
+-Does the set contain any highly frequent sequences; i.e. what is the frequency distribution of unique sequences in the set?        -(HABRÍA QUE CAMBIAR IMPLEMENTACIÓN)
+-Does the unique set contain any other common (proper) suffix patterns?                                                             -(HABRÍA QUE CAMBIAR IMPLEMENTACIÓN)
+-Does the set in s_3_sequence_1M.txt.gz contain additional common suffix patterns?                                                  -(HABRÍA QUE CAMBIAR IMPLEMENTACIÓN)
+-What sequence does your algorithm return if you use your algorithm to analyze the files s_3_sequence_1M.txt.gz and Seqset3.txt.gz? -(SE HACE FÁCIL)
+
+Ex5 -> No se hace                                                                                                                   -EX 5 -> NO SE HACE
